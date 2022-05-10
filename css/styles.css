@@ -274,6 +274,8 @@ img{
 		order: -1;
 	}
 
+	
+
 }
 
 /**********************************/
@@ -395,6 +397,8 @@ img{
 /**********************************/
 /* 9. Footer
 /**********************************/
+
+
 .footer{
 	background-color: var(--clr-pink-light);
 	display: flex;
@@ -416,5 +420,11 @@ img{
 
 .footer a:hover{
 	color: var(--clr-white);
+}
+
+@media (max-width:300px){
+	.footer__copyright{
+		max-width: 50%;
+	}
 }
 
